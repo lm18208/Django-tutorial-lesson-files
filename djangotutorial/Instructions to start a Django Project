@@ -1,0 +1,9 @@
+pip install Django (or just 'pip install -r requirements.txt' if you have already downloaded my requirements file)
+django-admin startproject [Name of your Choice, I will choose Django-tutorial]
+
+cd [previous directory] e.g. Django-tutorial
+
+'django-admin' to reveal list of django commands 
+python manage.py runserver to test functionality, you should be greeted by django's debug screen if you click on the address
+
+some may need to use python3 instead of python depending on your file structure
