@@ -1,11 +1,11 @@
 Lesson 3: introduction to Models and the Admin
 
-# create a model in models.py for example:
+1. create a model in models.py for example:
 
-class mymodel(models.Models):
-  text = models.CharField(max_length=30)
-  number = models.IntegerField()
-  
+    class mymodel(models.Models):
+      text = models.CharField(max_length=30)
+      number = models.IntegerField()
+
   
 A ist of Django model data types (e.g. Charfield, DecimalField) can be found here: https://www.webforefront.com/django/modeldatatypesandvalidation.html
 
@@ -14,10 +14,10 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 
 
-# After creating the model you need to register it in the admin.py file
+2. After creating the model you need to register it in the admin.py file
 
-from .models import mymodel
+    from .models import mymodel
 
-admin.site.register(mymodel)
+    admin.site.register(mymodel)
 
-# This will make your model visible in the django admin
+    # This will make your model visible in the django admin
