@@ -1,12 +1,15 @@
 # create a model in models.py for example:
 
 class mymodel(models.Models):
+  text = models.CharField(max_length=30)
   number = models.IntegerField()
   
   
-# always run migrations after changing models.py. 
-# python3 manage.py makemigrations
-# python3 manage.py migrate
+A ist of Django model data types e.g. DecimalField, can be found here: https://www.webforefront.com/django/modeldatatypesandvalidation.html
+
+# always run migrations in the terminal after changing models.py. 
+python3 manage.py makemigrations
+python3 manage.py migrate
 
 
 # After creating the model you need to register it in the admin.py file
