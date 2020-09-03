@@ -1,1 +1,18 @@
+# create a model in models.py for example:
 
+class mymodel(models.Models):
+  number = models.IntegerField()
+  
+  
+# always run migrations after changing models.py. 
+# python3 manage.py makemigrations
+# python3 manage.py migrate
+
+
+# After creating the model you need to register it in the admin.py file
+
+from .models import mymodel
+
+admin.site.register(mymodel)
+
+# This will make your model visible in the django admin
