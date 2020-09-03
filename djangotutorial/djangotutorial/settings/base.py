@@ -24,7 +24,7 @@ INSTALLED_APPS = [
     'django_countries',
 
     # My Apps
-
+    'core',
 ]
 
 MIDDLEWARE = [
