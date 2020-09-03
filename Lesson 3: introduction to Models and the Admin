@@ -1,3 +1,5 @@
+Lesson 3: introduction to Models and the Admin
+
 # create a model in models.py for example:
 
 class mymodel(models.Models):
