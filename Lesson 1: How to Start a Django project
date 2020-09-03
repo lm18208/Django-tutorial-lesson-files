@@ -5,9 +5,9 @@ To make things easier however I have provided a boilerplate project template tha
 
 It is however important to know how to begin a project.
 
-# Initiate your venv or start project in pycharm (or vscode)
+1. Initiate your venv or start project in pycharm (or vscode)
 
-pip install Django 
+2. pip install Django 
 
 # (or just 'pip install -r requirements.txt' if you have already downloaded my requirements file)
 
@@ -15,12 +15,17 @@ pip install Django
 # this just makes it easier to install all the nescessary extensions at once 
 # which is especially handy when moving your program to a new environment)
 
-django-admin startproject [Name of your Choice e.g. Django-tutorial]
+3. django-admin startproject [Name of your Choice e.g. Django-tutorial]
 
-cd [directory e.g. Django-tutorial] 
+4. cd [directory e.g. Django-tutorial] 
 
 you can enter 'django-admin' to reveal list of django commands 
-python manage.py runserver # to test functionality, you should be greeted by django's debug screen when you open the address in the browser
+5. python manage.py runserver # to test functionality, you should be greeted by django's debug screen when you open the address in the browser
 
 # some may need to use python3 instead of python depending on your file structure
+
+6. create a super user to login to the admin
+
+python3 manage.py createsuperuser #and enter a username and password. This will be used to sign in in the admin path/admin (e.g. 127.0.0.1:8000/admin)
+
 
