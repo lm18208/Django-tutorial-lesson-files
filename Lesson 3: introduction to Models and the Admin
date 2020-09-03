@@ -7,7 +7,7 @@ class mymodel(models.Models):
   number = models.IntegerField()
   
   
-A ist of Django model data types e.g. DecimalField, can be found here: https://www.webforefront.com/django/modeldatatypesandvalidation.html
+A ist of Django model data types (e.g. Charfield, DecimalField) can be found here: https://www.webforefront.com/django/modeldatatypesandvalidation.html
 
 # always run migrations in the terminal after changing models.py. 
 python3 manage.py makemigrations
