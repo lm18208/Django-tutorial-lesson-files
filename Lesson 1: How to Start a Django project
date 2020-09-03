@@ -24,6 +24,3 @@ python manage.py runserver # to test functionality, you should be greeted by dja
 
 # some may need to use python3 instead of python depending on your file structure
 
-#----------Creating your first app------------------------
-
-python3 manage.py startapp [appname]
