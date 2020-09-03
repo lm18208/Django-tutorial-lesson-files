@@ -1,19 +1,25 @@
 How to start a djnago project
 
-Initiate your venv or start project in pycharm (or vscode)
+This is the proper method to begin a django project. 
+To make things easier however I have provided a boilerplate project template that you can download in the djangotemplate branch 
+
+It is however important to know how to begin a project.
+
+# Initiate your venv or start project in pycharm (or vscode)
 
 pip install Django 
 
-(or just 'pip install -r requirements.txt' if you have already downloaded my requirements file)
+# (or just 'pip install -r requirements.txt' if you have already downloaded my requirements file)
 
-(I like storing my versions for all of my libraries in a requirements.txt file, 
-this just makes it easier to install all the nescessary extensions at once which is especially handy when moving your program to a new environment)
+# (I like storing my versions for all of my libraries in a requirements.txt file, 
+# this just makes it easier to install all the nescessary extensions at once 
+# which is especially handy when moving your program to a new environment)
 
 django-admin startproject [Name of your Choice e.g. Django-tutorial]
 
 cd [directory e.g. Django-tutorial] 
 
 you can enter 'django-admin' to reveal list of django commands 
-python manage.py runserver to test functionality, you should be greeted by django's debug screen when you open the address in the browser
+python manage.py runserver # to test functionality, you should be greeted by django's debug screen when you open the address in the browser
 
-some may need to use python3 instead of python depending on your file structure
+# some may need to use python3 instead of python depending on your file structure
