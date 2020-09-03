@@ -7,25 +7,36 @@ It is however important to know how to begin a project.
 
 1. Initiate your venv or start project in pycharm (or vscode)
 
-2. pip install Django 
+2. Install Django
 
-# (or just 'pip install -r requirements.txt' if you have already downloaded my requirements file)
+    pip install Django 
+    
+    # alternatively
 
-# (I like storing my versions for all of my libraries in a requirements.txt file, 
-# this just makes it easier to install all the nescessary extensions at once 
-# which is especially handy when moving your program to a new environment)
+    pip install -r requirements.txt # if you have created a requirements.txt file listing your extensions
 
-3. django-admin startproject [Name of your Choice e.g. Django-tutorial]
+    # It is a really good habit to list all your extensions in a requirements.txt file, 
+    # this just makes it easier to install all the nescessary extensions at once using 'pip install -r requirements.txt'
+    # which is especially handy when moving your program to a new environment
 
-4. cd [directory e.g. Django-tutorial] 
+3. Start a project and cd into your project directory
 
-you can enter 'django-admin' to reveal list of django commands 
-5. python manage.py runserver # to test functionality, you should be greeted by django's debug screen when you open the address in the browser
+   django-admin startproject [Name of your Choice e.g. Django-tutorial]
+   cd [directory e.g. Django-tutorial] 
 
-# some may need to use python3 instead of python depending on your file structure
+tip: you can enter 'django-admin' to reveal list of django commands 
 
-6. create a super user to login to the admin
+4. Test to see if this worked using:
 
-python3 manage.py createsuperuser #and enter a username and password. This will be used to sign in in the admin path/admin (e.g. 127.0.0.1:8000/admin)
+    python manage.py runserver # you should be greeted by django's debug screen when you open the address in the browser
+
+tip: some may need to use python3 instead of python depending on your file structure (I DID
+
+5. create a super user to login to the admin
+
+    python3 manage.py createsuperuser 
+    
+    # enter a username and password. This will be used to sign in in the admin 
+    # To see the admin enter path/admin (e.g. 127.0.0.1:8000/admin) in your browser once your server is running
 
 
