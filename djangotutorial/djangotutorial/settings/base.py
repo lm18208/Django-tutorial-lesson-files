@@ -24,7 +24,7 @@ INSTALLED_APPS = [
     'django_countries',
 
     # My Apps
-    'core',
+    # 'core',
 ]
 
 MIDDLEWARE = [
@@ -78,26 +78,26 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend'
 )
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
-SITE_ID = 1
-LOGIN_REDIRECT_URL = '/'
-
-SOCIALACCOUNT_PROVIDERS = {
-    # 'google': {
-    #     'SCOPE': [
-    #         'profile',
-    #         'email',
-    #     ],
-    #     'AUTH_PARAMS': {
-    #         'access_type': 'online',
-    #     }
-    # }
-}
-
-# SOCIAL_AUTH_GOOGLE_OAUTH2_AUTH_EXTRA_ARGUMENTS = {'prompt': 'select_account'}
-
-
-AUTH_PROFILE_MODULE = 'core.UserProfile'
-# CRISPY FORMS
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+# SITE_ID = 1
+# LOGIN_REDIRECT_URL = '/'
+#
+# SOCIALACCOUNT_PROVIDERS = {
+#     # 'google': {
+#     #     'SCOPE': [
+#     #         'profile',
+#     #         'email',
+#     #     ],
+#     #     'AUTH_PARAMS': {
+#     #         'access_type': 'online',
+#     #     }
+#     # }
+# }
+#
+# # SOCIAL_AUTH_GOOGLE_OAUTH2_AUTH_EXTRA_ARGUMENTS = {'prompt': 'select_account'}
+#
+#
+# AUTH_PROFILE_MODULE = 'core.UserProfile'
+# # CRISPY FORMS
+# CRISPY_TEMPLATE_PACK = 'bootstrap4'
