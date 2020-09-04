@@ -1,7 +1,8 @@
 How to start a djnago project
 
 This is the proper method to begin a django project. 
-To make things easier however I have provided a boilerplate project template that you can download in the djangotemplate branch 
+To make things easier however I have provided a boilerplate project template that you can download in the projecttemplate branch
+Download this as a zip file and add it to your project folder. Skip the django start project step.
 
 It is however important to know how to begin a project.
 
