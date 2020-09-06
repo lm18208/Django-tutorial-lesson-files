@@ -2,7 +2,7 @@ How to start a djnago project
 
 This is the proper method to begin a django project. 
 To make things easier however I have provided a boilerplate project template that you can download in the projecttemplate branch
-Download this as a zip file and add it to your project folder. Skip the django start project step.
+Download this as a zip file and add it to your project folder.
 
 It is however important to know how to begin a project.
 
@@ -22,7 +22,7 @@ It is however important to know how to begin a project.
 
 3. Start a project and cd into your project directory
 
-   django-admin startproject [Name of your Choice e.g. Django-tutorial]
+   django-admin startproject [Name of your Choice e.g. Django-tutorial] # if you have downloaded my boilerplate template skip this step
    cd [directory e.g. Django-tutorial] 
 
 tip: you can enter 'django-admin' to reveal list of django commands 
