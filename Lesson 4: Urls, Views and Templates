@@ -1,1 +1,8 @@
 Views, urls and templates work together as a process to render data
+
+the main process works like this:
+templates > urls > views > templates
+
+urls are entered by the user from buttons or links in your templates. These link to a url path in your app. 
+This path executes a view which will pull and operate data to be displayed in the templates (I will go over this later when we discuss views)
+This view will then render a template which the user will see as a page.
