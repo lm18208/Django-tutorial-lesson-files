@@ -23,3 +23,8 @@ python3 manage.py migrate
     # This will make your model visible in the django admin
     
 3. you can now play with creating objects with that model in the admin
+
+It is really important to have a good idea of what models you will need in your project, 
+e.g. a model for a user profile, a model for a game (name, description, file, relevant data)
+
+your models should be created before you begin thinking about how the data will be displayed on the front end.
