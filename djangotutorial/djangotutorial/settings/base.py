@@ -76,10 +76,10 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend'
 )
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-# ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
-# SITE_ID = 1
-# LOGIN_REDIRECT_URL = '/'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+SITE_ID = 1
+LOGIN_REDIRECT_URL = '/'
 
 
 
