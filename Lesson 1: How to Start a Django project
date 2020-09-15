@@ -38,6 +38,10 @@ tip: some may need to use python3 instead of python depending on your file struc
     python3 manage.py createsuperuser 
     
     # enter a username and password. This will be used to sign in in the admin 
-    # To see the admin enter path/admin (e.g. 127.0.0.1:8000/admin) in your browser once your server is running
+    
+   
+To see the admin enter path/admin (e.g. 127.0.0.1:8000/admin) in your browser once your server is running. 
+Note: Make sure the line SITE_ID=1 in base.py is there and not commented out as I accidentally did this in the projecttemplate 
+which has since been fixed. If you get an error that the path does not exist, this will be the cause.
 
 
