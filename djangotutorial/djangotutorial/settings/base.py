@@ -18,11 +18,14 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+   	'allauth.socialaccount.providers.microsoft',
 
     'crispy_forms',
     'django_countries',
 
     # My Apps
+    'core',
 ]
 
 MIDDLEWARE = [
@@ -76,13 +79,9 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend'
 )
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-# ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
-# SITE_ID = 1
-# LOGIN_REDIRECT_URL = '/'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+SITE_ID = 1
+LOGIN_REDIRECT_URL = '/'
 
 
-
-# AUTH_PROFILE_MODULE = 'core.UserProfile'
-# CRISPY FORMS
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
